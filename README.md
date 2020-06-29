@@ -16,10 +16,8 @@ CREATE TABLE `dados` (
   `senha` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
---
--- Dumping data for table `dados`
---
 
-INSERT INTO `dados` (`id_dados`, `nome`, `cpf`, `email`, `senha`) VALUES
+
+INSERT INTO `dados` (`id_dados`, `nome`, `email`, `senha`) VALUES
 (1, 'johnDoe', 'ad@doe.com', '12345'),
 (2, 'janeDoe', 'jane@doe.com', '54321');
