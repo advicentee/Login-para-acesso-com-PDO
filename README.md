@@ -5,4 +5,21 @@ arquivos:
 HTMl
 CSS
 PHP(PDO)
+
+
 Banco de dados
+
+CREATE TABLE `dados` (
+  `id_dados` int NOT NULL,
+  `nome` varchar(250) NOT NULL,
+  `email` varchar(200) NOT NULL,
+  `senha` varchar(200) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `dados`
+--
+
+INSERT INTO `dados` (`id_dados`, `nome`, `cpf`, `email`, `senha`) VALUES
+(1, 'johnDoe', 'ad@doe.com', '12345'),
+(2, 'janeDoe', 'jane@doe.com', '54321');
