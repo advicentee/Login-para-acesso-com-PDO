@@ -10,8 +10,8 @@ session_start();
 //conectando com o banco
 $host = 'localhost';
 $dbname = 'login';
-$user = 'admin';
-$pass = 'admin123';
+$user = 'SeuNomeDeUsuario';
+$pass = 'SuAsEnHa';
 
 try {
     $conn = new PDO("mysql:dbname=$dbname; host=$host", $user, $pass);
